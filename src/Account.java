@@ -26,12 +26,28 @@ public class Account {
       System.out.println( "R$" + String.format( "%.2f", amount ) + " foram adicionados ao saldo: R$" + String.format( "%.2f", balance ) );
    }
    
-   void withdraw( double amount ) { 
-      if ( amount >= balance ) {
-         System.out.println( "Não é possivel retirar quantia. Motivo: sem saldo suficiente.");
-         return;
+   boolean withdraw( double amount ) { 
+      if ( amount >= balance || amount <= 0 ) {
+         return false;
       }
       balance -= amount;
       System.out.println( "R$" + String.format( "%.2f", amount ) + " foram retirados do saldo: R$" + String.format( "%.2f", balance ) );
+      return true;
    }
+
+   void trasnfer( double amount, Account targetAccount ) {
+      withdraw( amount );
+      targetAccount.deposit( amount );
+      invoice( amount, targetAccount );
+   }
+
+   void invoice( double amount, Account targetAccount ) {
+      System.out.println( "-- Dados da transferência ----------------------"                             );
+      System.out.println( "Destinatário: "      + targetAccount.accountOwner                               );
+      System.out.println( "Número da conta: "   + targetAccount.accountNumber                              );
+      System.out.println( "Valor: R$" + String.format( "%.2f", amount )                             );
+      System.out.println( "------------------------------------------------"                             );
+      System.out.println( "Saldo na restante: R$" + String.format( "%.2f", balance ) );
+   }
+
 }
