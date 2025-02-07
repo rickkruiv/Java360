@@ -39,5 +39,3 @@ Meu objetivo com este repositório é consolidar meus conhecimentos em Java, pra
 
 ---
 
-Se você também está estudando Java, fique à vontade para contribuir ou sugerir melhorias! 🚀
-
