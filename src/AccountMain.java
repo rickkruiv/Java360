@@ -32,7 +32,6 @@ public class AccountMain {
       System.out.println( "******************************" );
       account1.printBalance();
       account2.printBalance();
-      
       System.out.println( "******************************" );
 
    }
