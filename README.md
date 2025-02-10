@@ -10,6 +10,7 @@ Este repositório é dedicado aos meus estudos em Java. Aqui, você encontrará 
 - **Manipulação de Arquivos**: Leitura e escrita de arquivos em Java.
 - **Trabalho com APIs**: Consumo de APIs REST usando Java.
 - **Projetos Práticos**: Pequenos projetos para aplicar os conhecimentos adquiridos.
+- **Versionamento de código:** Uso de ferramentas de controle de versão, como Git.
 
 ## Como Usar
 
