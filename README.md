@@ -28,15 +28,15 @@ Este repositório é dedicado aos meus estudos em Java. Aqui, você encontrará 
    java App
    ```
 
-## Tecnologias Utilizadas <!-- Criando Varios conflitos para resolver [teste] -->
+## Tecnologias Utilizadas <!-- Criando Varios conflitos -->
 
 - **Java SE**
 - **JDK 21** 
 - **VsCode**
 
-## Anotações <!-- Criando Varios conflitos para resolver [teste] -->
+## Anotações <!-- Criando Varios conflitos -->
 
-Minhas anotações sobre o aprendizado de Java estão organizadas e disponíveis no Notion. Para acessar, clique no link abaixo: <!-- Criando Varios conflitos para resolver [teste] -->
+Minhas anotações sobre o aprendizado de Java estão organizadas e disponíveis no Notion. Para acessar, clique no link abaixo: <!-- Criando Varios conflitos -->
 
 [**Acessar minhas anotações sobre Java**](https://deeply-ground-9ba.notion.site/APRENDENDO-JAVA-17fdc85b4bc5803fba2beca5c4fc0056)
 
