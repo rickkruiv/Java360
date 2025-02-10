@@ -30,8 +30,14 @@ Este repositório é dedicado aos meus estudos em Java. Aqui, você encontrará 
 ## Tecnologias Utilizadas
 
 - **Java SE**
-- **JDK 17** (ou superior)
-- **Eclipse / IntelliJ IDEA** (IDE opcional)
+- **JDK 21** 
+- **VsCode**
+
+## Anotações
+
+Minhas anotações sobre o aprendizado de Java estão organizadas e disponíveis no Notion. Para acessar, clique no link abaixo:
+
+[**Acessar minhas anotações sobre Java**](https://deeply-ground-9ba.notion.site/APRENDENDO-JAVA-17fdc85b4bc5803fba2beca5c4fc0056)
 
 ## Objetivo
 
