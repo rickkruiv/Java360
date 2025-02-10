@@ -28,11 +28,17 @@ Este repositório é dedicado aos meus estudos em Java. Aqui, você encontrará 
    java App
    ```
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas <!-- Criando Varios conflitos -->
 
 - **Java SE**
-- **JDK 17** (ou superior)
-- **Eclipse / IntelliJ IDEA** (IDE opcional)
+- **JDK 21** 
+- **VsCode**
+
+## Anotações <!-- Criando Varios conflitos -->
+
+Minhas anotações sobre o aprendizado de Java estão organizadas e disponíveis no Notion. Para acessar, clique no link abaixo: <!-- Criando Varios conflitos -->
+
+[**Acessar minhas anotações sobre Java**](https://deeply-ground-9ba.notion.site/APRENDENDO-JAVA-17fdc85b4bc5803fba2beca5c4fc0056)
 
 ## Objetivo
 
