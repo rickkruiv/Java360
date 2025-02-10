@@ -38,7 +38,7 @@ Este repositório é dedicado aos meus estudos em Java. Aqui, você encontrará 
 
 Minhas anotações sobre o aprendizado de Java estão organizadas e disponíveis no Notion. Para acessar, clique no link abaixo:
 
-[**Acessar minhas anotações sobre Java**](https://deeply-ground-9ba.notion.site/APRENDENDO-JAVA-17fdc85b4bc5803fba2beca5c4fc0056)
+<a href="https://deeply-ground-9ba.notion.site/APRENDENDO-JAVA-17fdc85b4bc5803fba2beca5c4fc0056" target="_blank">**Acessar minhas anotações sobre Java**</a>
 
 ## Objetivo
 
