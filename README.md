@@ -12,22 +12,6 @@ Este repositório é dedicado aos meus estudos em Java. Aqui, você encontrará 
 - **Projetos Práticos**: Pequenos projetos para aplicar os conhecimentos adquiridos.
 - **Versionamento de código:** Uso de ferramentas de controle de versão, como Git.
 
-## Como Usar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/rickkruiv/Java360
-   ```
-2. Navegue até a pasta desejada:
-   ```bash
-   cd Java360
-   ```
-3. Compile e execute os exemplos usando o compilador Java:
-   ```bash
-   javac App.java
-   java App
-   ```
-
 ## Tecnologias Utilizadas <!-- Criando Varios conflitos -->
 
 - **Java SE**
