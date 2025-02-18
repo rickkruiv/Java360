@@ -1,6 +1,7 @@
 package java_exceptions_main.app;
 
 import java_exceptions_main.account.Account3;
+import java_exceptions_main.account.InsufficientFundsException;
 
 public class App5 {
 
@@ -12,6 +13,14 @@ public class App5 {
          System.out.println(account);
       } catch( Exception e ) {
          System.out.println("Erro: não é possivel depositar valore negativos");
+      }
+
+      try {
+         account.withdraw(-100);
+      } catch (InsufficientFundsException e) {
+         System.out.println("Erro: valor insuficiente");
+      } catch (IllegalArgumentException e) {
+         System.out.println("Erro: valores negativos não podem ser sacados");
       }
    }
 }
