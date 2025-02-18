@@ -10,7 +10,7 @@ public class App3 {
       account3.deposit(1000);
       System.out.println(account3);
 
-      account3.withdraw(100);
+      account3.withdraw(1100);
 
       System.out.println(account3);
    }
