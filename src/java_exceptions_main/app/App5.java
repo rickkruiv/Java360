@@ -17,10 +17,12 @@ public class App5 {
 
       try {
          account.withdraw(-100);
-      } catch (InsufficientFundsException e) {
-         System.out.println("Erro: valor insuficiente");
-      } catch (IllegalArgumentException e) {
-         System.out.println("Erro: valores negativos não podem ser sacados");
+      } catch (InsufficientFundsException | IllegalArgumentException e) {
+         
+         System.out.println( "ERRO: " + e.getMessage() );
+         System.out.println( "StackTrace: " );
+         // e.printStackTrace();
       }
+      
    }
 }
