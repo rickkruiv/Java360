@@ -31,5 +31,8 @@ public class AppPersonagem {
         
         Personagem[] personagems = { henrique, diogo };
         Personagem.placar( personagems );
+
+        diogo.getInventario().verInventario();
+        henrique.getInventario().verInventario();
     }
 }

@@ -1,40 +1,42 @@
 package listaDeTarefas.TodoList;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
 public class MenuTodoList {
 
-    private List<String> tarefas = new ArrayList<>();
+    private TodoList todoList;
+    private Scanner scan;
 
-    Scanner scan = new Scanner( System.in );
-
-    public MenuTodoList() {
-
-        System.out.println( "-------------------------------" );
-        System.out.println( "| [01] - Adicionar tarefa.... |" );
-        System.out.println( "| [02] - Listar tarefas...... |" );
-        System.out.println( "| [03] - Remover tarefa...... |" );
-        System.out.println( "| [04] - Sair................ |" );
-        System.out.println( "-------------------------------" );
+    public MenuTodoList( Scanner scan ) {
+        todoList  = new TodoList( scan );
+        this.scan = scan ;
     }
+    /******************************************************************************/
+    public void criarMenuTodoList() {
 
-    public List<String> getTarefas() {
-        return tarefas;
+        do {
+            
+            System.out.println( """
+                -------------------------------
+                | [01] - Adicionar tarefa.... |
+                | [02] - Listar tarefas...... |
+                | [03] - Remover tarefa...... |
+                | [04] - Sair................ |
+                -------------------------------""" );
+        } while ( opcoesMenu() );
     }
-
-    public void opcoesMenu() {
+    /******************************************************************************/
+    public boolean opcoesMenu() {
 
         switch ( selecionarOpcao() ) {
-            case 1: System.out.println( "criar"   ); tarefas.add( new AdicionarTarefa().criarTarefa() ); break;
-            case 2: System.out.println( "listar"  ); break;
-            case 3: System.out.println( "excluir" ); break;
-            case 4: System.out.println( "sair"    ); break;
+            case 1:  todoList.criarTarefa();   break;
+            case 2:  todoList.listarTarefas(); break;
+            case 3:  todoList.removerTarefa(); break;
+            case 4:  return false;
             default: break;
         }
+        return true;
     }
-
+    /******************************************************************************/
     public int selecionarOpcao() {
 
         while ( true ) {
@@ -43,12 +45,16 @@ public class MenuTodoList {
 
                 System.out.print( "Escolha opção: " );
                 int opcao = Integer.parseInt( scan.nextLine() );
+
                 if ( opcao >= 1 && opcao <= 4 ) { 
                     return opcao; 
                 } else {
                     System.out.println( "Opção inválida" );
                 }
-            } catch ( NumberFormatException e ) { }
+            } catch ( NumberFormatException e ) {
+                System.out.println( "Entrada inválida. Digite um número entre 1 e 4." );
+            }
         }
     }
+    /******************************************************************************/
 }

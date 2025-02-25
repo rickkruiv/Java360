@@ -1,13 +1,17 @@
 package listaDeTarefas.app;
 
+import java.util.Scanner;
+
 import listaDeTarefas.TodoList.MenuTodoList;
 
 public class AppTodoList {
 
     public static void main(String[] args) {
+    
+        Scanner      scanner = new Scanner( System.in );
+        MenuTodoList menu    = new MenuTodoList( scanner );
         
-        MenuTodoList menu = new MenuTodoList();
-        menu.opcoesMenu();
-        System.out.println( menu.getTarefas() );
+        menu.criarMenuTodoList();
+        scanner.close();
     }
 }
