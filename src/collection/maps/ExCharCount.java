@@ -7,18 +7,22 @@ public class ExCharCount {
 
     public static void main(String[] args) {
 
-        System.out.println(count("GARRAFA"));
-        System.out.println(count("JAVA"));
-        System.out.println(count("ORIENTACAO A OBJETOS"));
+        System.out.println( count( "JAVA"           ) );
+        System.out.println( count( "GARRAFA"        ) );
+        System.out.println( count( "HENRIQUE"       ) );
+        System.out.println( count( "TIGRINHO"       ) );
+        System.out.println( count( "PARALELEPIPEDO" ) );
+
     }
 
-    private static Map<Character, Integer> count(String str) {
-        char[] chars = str.toCharArray();
-        Map<Character, Integer> map = new TreeMap<>();
+    public static Map< Character, Integer > count( String str ) {
 
-        for (char c : chars) {
-            int count = map.getOrDefault(c, 0);
-            map.put(c, count + 1);
+        char[] chars = str.toCharArray();
+        Map< Character, Integer > map = new TreeMap<>();
+
+        for (char caracter : chars) {
+            int count = map.getOrDefault( caracter,0 );
+            map.put( caracter, count + 1 );
         }
 
         return map;
