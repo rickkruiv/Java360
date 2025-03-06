@@ -3,14 +3,18 @@
 Este repositório é dedicado aos meus estudos em Java. Aqui, você encontrará códigos, projetos e anotações relacionadas à linguagem.
 
 ## Conteúdo
-
-- **Fundamentos do Java**: Sintaxe básica, variáveis, tipos de dados, operadores.
-- **Estruturas de Controle**: Condicionais (`if`, `switch`) e laços (`for`, `while`, `do-while`).
-- **Programação Orientada a Objetos (POO)**: Classes, objetos, herança, polimorfismo, interfaces.
-- **Manipulação de Arquivos**: Leitura e escrita de arquivos em Java.
-- **Trabalho com APIs**: Consumo de APIs REST usando Java.
-- **Projetos Práticos**: Pequenos projetos para aplicar os conhecimentos adquiridos.
-- **Versionamento de código:** Uso de ferramentas de controle de versão, como Git.
+- **Fundamentos do Java:** 
+      Variáveis e Tipagem de Dados; Operadores e Expressões; Estruturas de Controle: if, switch;Estruturas de Repetição: for, while, do-while; Métodos, Parâmetros e Argumentos; Arrays e Coleções
+- **Programação Orientada a Objetos (POO):** 
+      Classes e Objetos; Construtores; Modificadores de Acesso; Encapsulamento; Herança e Polimorfismo; Interfaces e Classes Abstratas; Enums
+- **Recursos Avançados:**
+      Tratamento de Exceções; Generics; Expressões Lambda e Funções Anônimas; Collections Framework
+- **Manipulação de Dados:**
+      Leitura e Escrita de Arquivos; Consumo de APIs REST usando Java
+- **Projetos Práticos:**
+      Aplicações Simples para fixação dos conceitos; Pequenos projetos aplicando POO e APIs
+- **Versionamento de Código:**
+      Uso de Git e GitHub para controle de versão
 
 ## Tecnologias Utilizadas <!-- Criando Varios conflitos -->
 
