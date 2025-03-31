@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class ExConsoleApp {
 
@@ -16,14 +16,14 @@ public class ExConsoleApp {
 
             while ( true ) {
                 
-                Scanner in   = new Scanner( System.in );
+                // Scanner in   = new Scanner( System.in );
                 System.out.print( ">> " );
-                String line = in.nextLine();
+                // String line = in.nextLine();
     
-                if ( line.isEmpty() ) {
-                    break;
-                }
-                out.println( line );
+                // if ( line.isEmpty() ) {
+                //     break;
+                // }
+                // out.println( line );
             }
         }
     }
