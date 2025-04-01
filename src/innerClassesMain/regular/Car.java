@@ -1,5 +1,6 @@
 package innerClassesMain.regular;
 
+@SuppressWarnings("unused")
 public class Car {
     private int speed;
     private Engine engine = new Engine();
@@ -19,7 +20,6 @@ public class Car {
         public void injectFuel() {
             speed += 10;
         }
-
         public boolean isAllOn() {
             return this.on && Car.this.on;
         }
